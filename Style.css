@@ -29,4 +29,34 @@ button {
   .text-center {
     text-align: center;
   }
+
+  .mainmenubtn {
+    background-color: rgb(83, 6, 73);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(77, 6, 53);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(230, 127, 199);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: rgb(92, 13, 75);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
 }
